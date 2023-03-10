@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conventions",
+  "info": {
+    "singularName": "convention",
+    "pluralName": "conventions",
+    "displayName": "Convention",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numero": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Client": {
+      "type": "enumeration",
+      "enum": [
+        "ATTIJARI TUNISIE",
+        "BNP",
+        "BPVF",
+        "CAAM",
+        "CAAV",
+        "CADS",
+        "CAI",
+        "CALHL",
+        "CMB",
+        "CMSO",
+        "CSF",
+        "EBR",
+        "GENERALI",
+        "NATIXIS",
+        "SOCIETE GENERALE",
+        "SOGECAP"
+      ]
+    }
+  }
+}
